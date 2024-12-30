@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/psite?sslmode=disable"
+    username: "yale"
+    password: "12345"
+    driverClassNam: "org.postgresql.Driver"
+
+  kafka:
+    bootstrap-server: "localhost:9092"
+
+  redis:
+    password: "12345"
+
+  devtools:
+    enabled: true
